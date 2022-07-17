@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: default
     server: "https://kubernetes.default.svc"
-  project: default
+  project: nginx-cus
   source: 
     path: testapp
     repoURL: "https://github.com/aneeshansaricloud/argoapp.git"
